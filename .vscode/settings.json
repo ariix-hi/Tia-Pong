@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Pong_project.sln"
+    "dotnet.defaultSolution": "Tia_Pong.sln"
 }
