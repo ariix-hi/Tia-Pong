@@ -36,6 +36,11 @@ public class BallControls : MonoBehaviour
         transform.position = resetPosition;
     }
 
+    public void ActivatePUSpeedUp(float magnitude)
+    {
+        rb2d.velocity *= magnitude;
+    }
+
     // Update is called once per frame
     void Update()
     {
